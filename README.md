@@ -42,3 +42,5 @@ The Xiaomi Redmi Note 6 Pro (codenamed _"tulip"_) is a mid-range smartphone from
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# This fork has the following commits: Rounded corner when notch gets hidden
