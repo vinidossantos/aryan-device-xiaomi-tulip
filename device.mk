@@ -33,6 +33,11 @@ $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
